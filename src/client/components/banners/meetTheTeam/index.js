@@ -54,20 +54,6 @@ class MeetTheTeamSlider extends Component {
                 <div className={classNames({'banner_scroller': true, 'loaded': this.state.meetTheTeam_loaded })}>
 
                     <Slider {...settings}>
-                    
-                        <div className="item">
-                            <div className="profilePic">
-                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/profilePic.jpg`} />
-                            </div>
-                            <div className="details">
-                                <span className="name">
-                                    Jane Doe
-                                </span>
-                                <span className="jobRole">
-                                    General manager
-                                </span>
-                            </div>
-                        </div>
 
                         <div className="item">
                             <div className="profilePic">
@@ -75,60 +61,20 @@ class MeetTheTeamSlider extends Component {
                             </div>
                             <div className="details">
                                 <span className="name">
-                                    Jane Doe
+                                    Meriem MEMMICHE
                                 </span>
                                 <span className="jobRole">
-                                    General manager
+                                  Blogger
                                 </span>
                             </div>
                         </div>
 
-                        <div className="item">
-                            <div className="profilePic">
-                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/profilePic.jpg`} />
-                            </div>
-                            <div className="details">
-                                <span className="name">
-                                    Jane Doe
-                                </span>
-                                <span className="jobRole">
-                                    General manager
-                                </span>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                            <div className="profilePic">
-                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/profilePic.jpg`} />
-                            </div>
-                            <div className="details">
-                                <span className="name">
-                                    Jane Doe
-                                </span>
-                                <span className="jobRole">
-                                    General manager
-                                </span>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                            <div className="profilePic">
-                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/profilePic.jpg`} />
-                            </div>
-                            <div className="details">
-                                <span className="name">
-                                    Jane Doe
-                                </span>
-                                <span className="jobRole">
-                                    General manager
-                                </span>
-                            </div>
-                        </div>
+                      
 
                     </Slider>
                 </div>
 
-            
+
 
             </div>
         )

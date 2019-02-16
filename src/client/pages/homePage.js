@@ -23,7 +23,7 @@ class HomePage extends Component {
                 Tunisian Lady diaries
               </h1>
               <span className="msg">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, alias animi iusto neque, sint corrupti? Laudantium, dignissimos id excepturi facilis, facere saepe quasi placeat praesentium ipsa sapiente illo molestiae?
+                Lorem ipsum dolor si?
               </span>
               <Link to="/about">
                 <span>Learn more</span>

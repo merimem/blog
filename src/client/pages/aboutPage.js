@@ -10,7 +10,7 @@ class About extends Component {
     head(){
         return (
             <Helmet bodyAttributes={{class: "aboutPage"}}>
-              <title>{`About - React Starter Kit`}</title>
+              <title>{`About - Tunisian Lady diaries`}</title>
             </Helmet>
         );
     }
