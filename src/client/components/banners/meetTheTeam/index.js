@@ -57,7 +57,7 @@ class MeetTheTeamSlider extends Component {
 
                         <div className="item">
                             <div className="profilePic">
-                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/profilePic.jpg`} />
+                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/aboutme.jpg`} />
                             </div>
                             <div className="details">
                                 <span className="name">
@@ -69,7 +69,7 @@ class MeetTheTeamSlider extends Component {
                             </div>
                         </div>
 
-                      
+
 
                     </Slider>
                 </div>
