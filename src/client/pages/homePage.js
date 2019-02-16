@@ -20,7 +20,7 @@ class HomePage extends Component {
           <div className="hero">
             <div className="content_wrap">
               <h1>
-                Tunisian Lady diaries
+                Memmicha goes global
               </h1>
               <span className="msg">
                 Lorem ipsum dolor si?

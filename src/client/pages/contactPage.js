@@ -14,7 +14,7 @@ class ContactPage extends Component {
 
   submit(data){
     console.log(data);
-    
+
     axios.post('/sendmail', data)
     .then(function (response) {
       console.log(response);
@@ -28,7 +28,7 @@ class ContactPage extends Component {
   head(){
     return (
         <Helmet bodyAttributes={{class: "contactPage"}}>
-          <title>{`Contact - React Starter Kit`}</title>
+          <title>{`Contact - Memmicha goes global`}</title>
         </Helmet>
     );
   }
@@ -37,7 +37,7 @@ class ContactPage extends Component {
       const { handleSubmit } = this.props
 
       return (
-          
+
           <section className="contactPage_wrap">
           {this.head()}
             <InternalTextBanner Heading="Contact" wrapperClass="contact" />
@@ -99,9 +99,9 @@ class ContactPage extends Component {
                   </div>
               </div>
               </ReactCSSTransitionGroup>
-          
+
           </section>
-        
+
       );
     }
   }
@@ -111,7 +111,7 @@ class ContactPage extends Component {
       form: 'contactForm',
       validate,
       enableReinitialize: true,
-  })(ContactPage); 
+  })(ContactPage);
 
 export default {
   component: ContactPage

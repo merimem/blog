@@ -10,7 +10,7 @@ class About extends Component {
     head(){
         return (
             <Helmet bodyAttributes={{class: "aboutPage"}}>
-              <title>{`About - Tunisian Lady diaries`}</title>
+              <title>{`About - Memmicha goes global`}</title>
             </Helmet>
         );
     }
@@ -30,12 +30,12 @@ class About extends Component {
                                     <h2>
                                         About me
                                     </h2>
-                                    <p>Cher étranger,
+                                    <p>Cher étranger,</br>
                                     Je m'appelle Meriem, j'ai 25 ans et de nationalité Tunisienne.
                                     J'ai crée ce blog afin de partager avec vous mes aventures et mes expériences.
                                     Je suis une ingénieure en informatique à la base (d'ailleurs j'ai crée ce blog par moi meme)
                                     mais j'essaye de voyager le maximum afin de casser la routine et découvrir le monde.
-                                    
+
 
                                     </p>
 

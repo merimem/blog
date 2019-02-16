@@ -9,7 +9,7 @@ class NotFoundPage extends Component {
     head(){
         return (
             <Helmet bodyAttributes={{class: "notFound"}}>
-            <title>{`404 not found - React Starter Kit`}</title>
+            <title>{`404 not found - Memmicha goes global`}</title>
             </Helmet>
         );
     }
@@ -24,7 +24,7 @@ class NotFoundPage extends Component {
                         <div className="grid">
                             <div className="column column_12_12">
                                 <div className="posts">
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ class NotFoundPage extends Component {
                 </div>
         );
     }
-    
+
 }
 
 export default {

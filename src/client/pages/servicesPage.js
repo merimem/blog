@@ -8,7 +8,7 @@ class Services extends Component {
     head(){
         return (
             <Helmet bodyAttributes={{class: "servicesPage"}}>
-            <title>{`Services - React Starter Kit`}</title>
+            <title>{`Services - Memmicha goes global`}</title>
             </Helmet>
         );
     }
@@ -102,7 +102,7 @@ class Services extends Component {
                     </div>
                 </ReactCSSTransitionGroup>
             </div>
-            
+
         );
     }
 
