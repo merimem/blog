@@ -24,7 +24,7 @@
 
         .slick-arrow {
             position: absolute;
-            top: 50%; 
+            top: 50%;
             @include translateY(-50%);
             z-index: 1;
 
@@ -90,7 +90,7 @@
             margin: 0 auto;
             width: 100%;
             text-align: center;
-            
+
             li {
                 display: inline-block;
                 width: auto;
@@ -117,7 +117,7 @@
 
         }
 
-        
+
     }
 
 }
@@ -131,7 +131,7 @@
     background-attachment: fixed;
     background-position: right;
     background-size: cover;
-    background-image: url('/assets/graphics/homePage/background_img.jpg'); 
+    background-image: url('/assets/graphics/homePage/background_img.jpg');
     width: 100%;
     height: 40.0rem;
 
@@ -148,7 +148,7 @@
 }
 
 
-// Meet the team 
+// Meet the team
 
 .meetTheTeam {
 
@@ -158,7 +158,9 @@
         .profilePic {
             display: block;
             width: 100%;
-            
+            -webkit-border-radius:127px;
+            -moz-border-radius:127px;
+
             img {
                 display: block;
                 width: 100%;
@@ -198,7 +200,7 @@
         padding-bottom: 6rem;
 
         .slick-arrow {
-        
+
             &.slick-prev,
             &.slick-next {
                 top: auto; bottom: 0; left: 0; right: 0;
@@ -206,7 +208,7 @@
                 transform: none;
                 height: auto;
                 width: 3.0rem;
-    
+
                 &::after {
                     color: $black;
                 }
@@ -219,19 +221,19 @@
                 &::after {
                     @include transition(all .4s ease-in-out);
                 }
-    
+
             }
 
 
-    
+
             &.slick-prev {
                 right: 5rem;
             }
-    
+
             &.slick-next {
                 left: 5rem;
             }
-    
+
         }
     }
 
@@ -239,7 +241,7 @@
 
 
 
-@media only screen and (max-width: 767px){ 
+@media only screen and (max-width: 767px){
 
     .topBanner_textOverlay h1 {
         font-size: 2.5rem;
