@@ -22,7 +22,7 @@ class Post extends Component {
             return(
                 <div>
                     <Helmet bodyAttributes={{class: "postPage"}}>
-                        <title>{`${this.props.postData.postTitle} - React Starter Kit`}</title>
+                        <title>{`${this.props.postData.postTitle} - Memmicha goes global`}</title>
                     </Helmet>
                     <InternalTextBanner Heading={this.props.postData.postTitle} wrapperClass="post" />
                     <ReactCSSTransitionGroup transitionName="anim" transitionAppear={true}  transitionAppearTimeout={5000} transitionEnter={false} transitionLeave={false}>
@@ -31,7 +31,7 @@ class Post extends Component {
                             <div className="column column_12_12">
                                 <div className="post">
                                     <div className="post_banner">
-                                        <img src={this.props.postData.imageURL} />
+                                        <img src={this.props.postData.imageUrl} />
                                     </div>
                                     <RenderHTML wrapperClass="user_content" html={this.props.postData.post} />
                                 </div>
@@ -40,7 +40,7 @@ class Post extends Component {
                     </div>
                     </ReactCSSTransitionGroup>
                 </div>
-            ); 
+            );
         }
 
         if(this.props.postData == null){
@@ -55,7 +55,7 @@ class Post extends Component {
                         <div className="grid">
                             <div className="column column_12_12">
                                 <div className="post">
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ class Post extends Component {
                         <div className="grid">
                             <div className="column column_12_12">
                                 <div className="post">
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ class Post extends Component {
             );
         }
 
-        
+
 
     }
   }
@@ -106,4 +106,3 @@ export default {
     loadData,
     component: connect(mapStateToProps, { fetchPost, clearPostData })(Post)
 };
-

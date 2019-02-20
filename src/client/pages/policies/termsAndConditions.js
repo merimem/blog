@@ -4,11 +4,11 @@ import InternalTextBanner from './../../components/banners/internalTextBanner';
 import { Helmet } from 'react-helmet';
 
 class TermsAndConditions extends Component {
-    
+
     head(){
         return (
             <Helmet bodyAttributes={{class: "termsAndConditionsPage"}}>
-                <title>{`Terms and conditions - React Starter Kit`}</title>
+                <title>{`Terms and conditions - Memmicha goes global`}</title>
             </Helmet>
         );
     }
@@ -16,7 +16,7 @@ class TermsAndConditions extends Component {
     render(){
 
         return (
-        
+
             <div>
                 {this.head()}
                 <InternalTextBanner Heading="Terms and conditions" wrapperClass="termsAndConditions_banner" />

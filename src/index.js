@@ -17,11 +17,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get(['/*/:param', '*'], (req, res) => {
-    
+
     const ParamValue = req.params.param ? req.params.param : null;
 
     const store = createStore(req);
-
     const promises = matchRoutes(Routes, req.path)
     .map(({ route }) => {
       return route.loadData ? route.loadData(store, ParamValue) : null;
@@ -48,7 +47,7 @@ app.get(['/*/:param', '*'], (req, res) => {
         }
         res.send(content);
     });
-    
+
 });
 
 app.post('/sendmail', (req, response) => {
@@ -82,7 +81,7 @@ app.post('/sendmail', (req, response) => {
             console.log(err)
             response.status(500).send('500 - Internal Server Error')
         }
-        response.status(200).send('200 - The request has succeeded.') 
+        response.status(200).send('200 - The request has succeeded.')
     });
 
 });

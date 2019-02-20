@@ -1,13 +1,12 @@
 import {landingPageAPI} from './../endpoints';
 
 export const fetchPost = (postID) => async (dispatch, getState, api) => {
-
     const _query = {
         query: `{
             Blog(slug: "${postID}"){
                 postTitle
                 post
-                imageURL
+                imageUrl
             }
         }`
     };
@@ -20,18 +19,18 @@ export const fetchPost = (postID) => async (dispatch, getState, api) => {
     }).catch((err) => {
         console.log('error', err);
     })
-    
+
 };
 
 export const fetchPosts = () => async (dispatch, getState, api) => {
 
     const _query = {
         query: `{
-            allBlogs {
+            blogs {
                 postTitle
-                shortdescription
+                shortDescription
                 slug
-                imageURL
+                imageUrl
               }
         }`
     };
@@ -44,7 +43,7 @@ export const fetchPosts = () => async (dispatch, getState, api) => {
     }).catch((err) => {
         console.log('error', err);
     })
-    
+
 };
 
 export const clearPostData = () => (dispatch) => {
@@ -52,5 +51,3 @@ export const clearPostData = () => (dispatch) => {
         type: 'CLEAR_POST_DATA'
     })
 };
-
-

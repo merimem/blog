@@ -20,7 +20,7 @@ class Posts extends Component {
                 <div key={index} className="post">
                     <div className="wrap">
                         <div className="img">
-                            <img src={post.imageURL} />
+                            <img src={post.imageUrl} />
                         </div>
                         <div className="details">
                             <div className="headline">
@@ -36,7 +36,7 @@ class Posts extends Component {
                             </Link>
                         </div>
                     </div>
-                    
+
                 </div>
             );
         })
@@ -83,11 +83,11 @@ class Posts extends Component {
                         <div className="grid">
                             <div className="column column_8_12">
                                 <div className="posts">
-                                    
+
                                 </div>
                             </div>
                             <div className="column column_4_12">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -106,11 +106,11 @@ class Posts extends Component {
                         <div className="grid">
                             <div className="column column_8_12">
                                 <div className="posts">
-                                    
+
                                 </div>
                             </div>
                             <div className="column column_4_12">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -136,4 +136,3 @@ export default {
     loadData,
     component: connect(mapStateToProps, { fetchPosts })(Posts)
 };
-

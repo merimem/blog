@@ -4,11 +4,11 @@ import InternalTextBanner from './../../components/banners/internalTextBanner';
 import { Helmet } from 'react-helmet';
 
 class Privacy extends Component {
-    
+
     head(){
         return (
             <Helmet bodyAttributes={{class: "privacyPolicyPage"}}>
-                <title>{`Privacy policy - React Starter Kit`}</title>
+                <title>{`Privacy policy - Memmicha goes global`}</title>
             </Helmet>
         );
     }
@@ -16,7 +16,7 @@ class Privacy extends Component {
     render(){
 
         return (
-        
+
             <div>
                 {this.head()}
                 <InternalTextBanner Heading="Privacy policy" wrapperClass="privacyPolicy_banner" />

@@ -4,11 +4,11 @@ import InternalTextBanner from './../../components/banners/internalTextBanner';
 import { Helmet } from 'react-helmet';
 
 class CookiesPolicy extends Component {
-    
+
     head(){
         return (
             <Helmet bodyAttributes={{class: "cookiesPolicyPage"}}>
-                <title>{`Cookies policy - React Starter Kit`}</title>
+                <title>{`Cookies policy - Memmicha goes global`}</title>
             </Helmet>
         );
     }
@@ -16,7 +16,7 @@ class CookiesPolicy extends Component {
     render(){
 
         return (
-        
+
             <div>
                 {this.head()}
                 <InternalTextBanner Heading="Cookies Policy" wrapperClass="cookiesPolicy_banner" />

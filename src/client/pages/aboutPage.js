@@ -30,14 +30,11 @@ class About extends Component {
                                     <h2>
                                         About me
                                     </h2>
-                                    <p>Cher étranger,</br>
-                                    Je m'appelle Meriem, j'ai 25 ans et de nationalité Tunisienne.
+                                    <p>Cher étranger,
+                                    Je m'appelle Meriem, j'ai 25 ans et de nationalité Tunisienne et j'habit en France.
                                     J'ai crée ce blog afin de partager avec vous mes aventures et mes expériences.
-                                    Je suis une ingénieure en informatique à la base (d'ailleurs j'ai crée ce blog par moi meme)
-                                    mais j'essaye de voyager le maximum afin de casser la routine et découvrir le monde.
-
-
-                                    </p>
+                                    Je suis à la base informaticienne mais j'essaye de voyager
+                                    le maximum possible afin de casser la routine et découvrir ce qui nous cache le monde</p>
 
 
 

@@ -50,8 +50,7 @@ class ContactPage extends Component {
                           <form onSubmit={handleSubmit(this.submit.bind(this))}>
 
                             <div className="form_wrap">
-
-
+                            
                               <div className="form_row">
                                 <Field
                                   name="firstName"
