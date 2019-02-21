@@ -18,22 +18,25 @@ class Post extends Component {
 
     render() {
 
-        if(!this.props.postData == false){
+        if(!this.props.postData[0] == false){
+
+          const post = this.props.postData[0].post;
+          //console.log("!!!!!", this.props.postData[0].post);
             return(
                 <div>
                     <Helmet bodyAttributes={{class: "postPage"}}>
-                        <title>{`${this.props.postData.postTitle} - Memmicha goes global`}</title>
+                        <title>{`${this.props.postData[0].postTitle} - Memmicha goes global`}</title>
                     </Helmet>
-                    <InternalTextBanner Heading={this.props.postData.postTitle} wrapperClass="post" />
+                    <InternalTextBanner Heading={this.props.postData[0].postTitle} wrapperClass="post" />
                     <ReactCSSTransitionGroup transitionName="anim" transitionAppear={true}  transitionAppearTimeout={5000} transitionEnter={false} transitionLeave={false}>
                     <div className="main anim-appear">
                         <div className="grid">
                             <div className="column column_12_12">
                                 <div className="post">
                                     <div className="post_banner">
-                                        <img src={this.props.postData.imageUrl} />
+                                        <img src={this.props.postData[0].imageUrl} />
                                     </div>
-                                    <RenderHTML wrapperClass="user_content" html={this.props.postData.post} />
+                                    <RenderHTML wrapperClass="user_content" html={post} />
                                 </div>
                             </div>
                         </div>
@@ -43,11 +46,11 @@ class Post extends Component {
             );
         }
 
-        if(this.props.postData == null){
+        if(this.props.postData[0] == null){
             return (
                 <div>
                     <Helmet bodyAttributes={{class: "postPage"}}>
-                        <title>{`React Starter Kit`}</title>
+                        <title>{`Memmiche goes global`}</title>
                     </Helmet>
                     <InternalTextBanner Heading="" wrapperClass="post" />
                     <ReactCSSTransitionGroup transitionName="anim" transitionAppear={true}  transitionAppearTimeout={5000} transitionEnter={false} transitionLeave={false}>
@@ -65,11 +68,11 @@ class Post extends Component {
             );
         }
 
-        if(this.props.postData == false){
+        if(this.props.postData[0] == false){
             return (
                 <div>
                     <Helmet bodyAttributes={{class: "postPage"}}>
-                        <title>{`404 not found - React Starter Kit`}</title>
+                        <title>{`404 not found - Memmiche goes global`}</title>
                     </Helmet>
                     <InternalTextBanner Heading="404 not found" wrapperClass="post" />
                     <ReactCSSTransitionGroup transitionName="anim" transitionAppear={true}  transitionAppearTimeout={5000} transitionEnter={false} transitionLeave={false}>
