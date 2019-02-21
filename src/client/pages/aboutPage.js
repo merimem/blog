@@ -55,6 +55,7 @@ class About extends Component {
                                     </ul>
                                     <main>
                                       <h1 className='me'>Meriem MEMMICHE</h1>
+                                      <div className='main'>
 
                                         <p>
                                         Cher visiteur,
@@ -65,7 +66,7 @@ class About extends Component {
                                          de casser la routine et découvrir ce qui nous cache le monde.
                                         </p>
 
-                                      
+                                      </div>
                                       </main>
 
 
