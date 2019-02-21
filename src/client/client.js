@@ -8,7 +8,7 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import { renderRoutes } from 'react-router-config';
 import axios from 'axios';
-import webConfig from './..webConfig';
+import webConfig from './../webConfig';
 import Routes from './routes';
 import reducers from './reducers';
 
