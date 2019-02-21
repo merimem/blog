@@ -3,12 +3,12 @@ import {landingPageAPI} from './../endpoints';
 export const fetchPost = (postID) => async (dispatch, getState, api) => {
     const _query = {
         query: `{
-            Blog(slug: "${postID}"){
-                postTitle
-                post
-                imageUrl
-            }
-        }`
+                  blogs(where: {slug: "${postID}"}) {
+                      postTitle
+                      post
+                      imageUrl
+                    }
+                  }`
     };
 
     await api.post(landingPageAPI, _query).then(response => {
