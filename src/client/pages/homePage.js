@@ -23,10 +23,10 @@ class HomePage extends Component {
                 Memmicha goes global
               </h1>
               <span className="msg">
-                Lorem ipsum dolor si?
+                Mon passeport c’est mon meilleur  livre
               </span>
               <Link to="/about">
-                <span>Learn more</span>
+                <span>About me</span>
               </Link>
             </div>
             <div className="pageScroll">

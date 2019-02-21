@@ -57,7 +57,7 @@ class Posts extends Component {
             return(
                 <div>
                     {this.head()}
-                    <InternalTextBanner Heading="Posts" wrapperClass="posts" />
+                    <InternalTextBanner Heading="Voyages" wrapperClass="Voyages" />
                     <ReactCSSTransitionGroup transitionName="anim" transitionAppear={true}  transitionAppearTimeout={5000} transitionEnter={false} transitionLeave={false}>
                     <div className="main anim-appear">
                         <div className="grid">
