@@ -30,47 +30,63 @@ class About extends Component {
                                     <h2>
                                         About me
                                     </h2>
+                                    <p>Cher visiteur,
+                                    Bienvenue à mon blog.
+                                    Je m'appelle Meriem de nationalité Tunisienne et j'habite en France.
+                                    J'ai crée ce blog afin de partager avec vous mes aventures et mes expériences.
+                                    Je suis à la base informaticienne mais j'essaye de voyager
+                                    le maximum possible afin de casser la routine et découvrir ce qui nous cache le monde</p>
 
-
-                                    <div class="container">
-                                      <div class="frame">
-                                        <div class="name">Meriem MEMMICHE</div>
-                                        <div class="avatar">
-                                        </div>
-                                        <div class="info">
-                                          <ul>
-                                            <li class="tab">
-                                              <label>
-                                                <input type="radio" name="info_type" checked /><div class="tab_name">&#10224;&nbsp;Home</div>
-                                                <div class="info_content"><p>Cher visiteur,
-                                                Bienvenue à mon blog.
-                                                Je m'appelle Meriem de nationalité Tunisienne et j'habite en France.
-                                                J'ai crée ce blog afin de partager avec vous mes aventures et mes expériences.
-                                                Je suis à la base informaticienne mais j'essaye de voyager
-                                                le maximum possible afin de casser la routine et découvrir ce qui nous cache le monde</p>
-                                                </div>
-                                              </label>
-                                            </li>
-                                            <li class="tab">
-                                              <label>
-                                                <input type="radio" name="info_type"/>
-                                                <div class="tab_name">&#9993;&nbsp;Email</div>
-                                                <div class="info_content">tonyooisc@gmail.com
-                                                </div>
-                                              </label>
-                                            </li>
-                                            <li class="tab">
-                                              <label>
-                                                <input type="radio" name="info_type"/>
-                                                <div class="tab_name">&#9990;&nbsp;Phone</div>
-                                                <div class="info_content">+6017-6085193
-                                                </div>
-                                              </label>
-                                            </li>
-                                          </ul>
-                                        </div>
+                                    <ul class='bg-bubbles'>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                      <li></li>
+                                    </ul>
+                                    <main>
+                                      <h1 class='me'>Jappe</h1>
+                                      <div class='main'>
+                                        <h1>Hi.</h1>
+                                        <p>
+                                          <b>I love...</b>
+                                        </p>
+                                        <ul>
+                                          <li>MY CAT!! :o</li>
+                                          <li>Coding cool stuff</li>
+                                          <li>My girlfriend</li>
+                                        </ul>
                                       </div>
-                                    </div>
+                                      <aside>
+                                        <h2>Skills</h2>
+                                        <ul>
+                                          <li>HTML5</li>
+                                          <li>CSS3</li>
+                                          <li>JavaScript</li>
+                                          <li>JQuery</li>
+                                          <li>PHP</li>
+                                          <li>MySQL</li>
+                                          <li>A bit of Java</li>
+                                          <li>And a bit of C#</li>
+                                        </ul>
+                                      </aside>
+</main>
+
 
 
                                 </div>
