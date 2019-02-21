@@ -54,37 +54,25 @@ class About extends Component {
                                       <li></li>
                                     </ul>
                                     <main>
-                                      <h1 className='me'>Jappe</h1>
+                                      <h1 className='me'>Meriem MEMMICHE</h1>
                                       <div className='main'>
-                                        <h1>Hi.</h1>
+
                                         <p>
-                                          <b>I love...</b>
+                                        Cher visiteur,
+                                        Bienvenue à mon blog.
+                                        Je m'appelle Meriem de nationalité Tunisienne et j'habite en France.
+                                        J'ai crée ce blog afin de partager avec vous mes aventures et mes expériences.
+                                        Je suis à la base informaticienne mais j'essaye de voyager le maximum possible afin
+                                         de casser la routine et découvrir ce qui nous cache le monde.
                                         </p>
-                                        <ul>
-                                          <li>MY CAT!! :o</li>
-                                          <li>Coding cool stuff</li>
-                                          <li>My girlfriend</li>
-                                        </ul>
+                                        
                                       </div>
-                                      <aside>
-                                        <h2>Skills</h2>
-                                        <ul>
-                                          <li>HTML5</li>
-                                          <li>CSS3</li>
-                                          <li>JavaScript</li>
-                                          <li>JQuery</li>
-                                          <li>PHP</li>
-                                          <li>MySQL</li>
-                                          <li>A bit of Java</li>
-                                          <li>And a bit of C#</li>
-                                        </ul>
-                                      </aside>
-</main>
+                                      </main>
 
 
 
                                 </div>
-                                <MeetTheTeamSlider />
+
                             </div>
                         </div>
                     </div>
