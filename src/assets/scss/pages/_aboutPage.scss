@@ -109,7 +109,15 @@ main {
 		}
 	}
 
+	.main {
+		width: 51%;
+		left: 5%;
 
+		ul {
+			padding-left: 1.5em;
+			list-style-type: square;
+		}
+	}
 }
 
 @-webkit-keyframes square {
