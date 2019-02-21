@@ -46,7 +46,7 @@ class Posts extends Component {
     head(){
         return (
             <Helmet bodyAttributes={{class: "postsPage"}}>
-                <title>{`Posts - React Starter Kit`}</title>
+                <title>{`Posts - Memmicha goes global`}</title>
             </Helmet>
         );
     }

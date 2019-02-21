@@ -21,7 +21,6 @@ class Post extends Component {
         if(!this.props.postData[0] == false){
 
           const post = this.props.postData[0].post;
-          //console.log("!!!!!", this.props.postData[0].post);
             return(
                 <div>
                     <Helmet bodyAttributes={{class: "postPage"}}>

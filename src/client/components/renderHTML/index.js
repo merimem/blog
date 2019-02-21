@@ -7,7 +7,6 @@ class RenderHTML extends Component {
     }
 
     render(){
-      console.log("!!!!!!!!!", this.props.html)
         return(
             <div
                 className={`${this.props.wrapperClass}`}

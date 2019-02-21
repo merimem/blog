@@ -33,11 +33,11 @@ class Header extends Component {
     componentWillUnmount() {
         window.removeEventListener('scroll', this.listenScrollEvent);
     }
-    
+
     render() {
 
         return (
-            
+
             <header onScroll={this.listenScrollEvent} className={classNames({'scrollActive': this.state.vPos > 0, 'mobileNavActive': this.state.mobileToggle })}>
 
                 <div className="wrap">
@@ -59,13 +59,13 @@ class Header extends Component {
                         <nav>
                             <ul>
                                 <li className="first">
-                                    <NavLink activeClassName="active" to="/blog">Blog</NavLink>
+                                    <NavLink activeClassName="active" to="/blog">Voyages</NavLink>
                                 </li>
                                 <li className="first">
                                     <NavLink activeClassName="active" to="/services">Services</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink activeClassName="active" to="/about">About</NavLink> 
+                                    <NavLink activeClassName="active" to="/about">About</NavLink>
                                 </li>
                                 <li className="last">
                                     <NavLink activeClassName="active" to="/contact">Contact</NavLink>
@@ -75,15 +75,15 @@ class Header extends Component {
                     </div>
 
                 </div>
-                
-                
-            
-            
-            
+
+
+
+
+
             </header>
-            
+
         );
-    }  
+    }
 };
 
 export default Header;
