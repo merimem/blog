@@ -31,7 +31,7 @@ class About extends Component {
                                     </h2>
 
 
-                                    <ul class='bg-bubbles'>
+                                    <ul className='bg-bubbles'>
                                       <li></li>
                                       <li></li>
                                       <li></li>
@@ -54,8 +54,8 @@ class About extends Component {
                                       <li></li>
                                     </ul>
                                     <main>
-                                      <h1 class='me'>Jappe</h1>
-                                      <div class='main'>
+                                      <h1 className='me'>Jappe</h1>
+                                      <div className='main'>
                                         <h1>Hi.</h1>
                                         <p>
                                           <b>I love...</b>
