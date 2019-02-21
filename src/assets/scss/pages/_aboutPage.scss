@@ -4,7 +4,7 @@ $color: #D8161C;
 
 body {
 	margin: 0;
-	background: #eee;
+	background: #eee
 	font: 1em Open Sans;
 }
 
@@ -89,7 +89,6 @@ main {
 		top: $size * 2.25;
 		display: inline-block;
 		padding: 0 2%;
-		background-color: #eee;
 
 		> h1,
 		> h2 {
@@ -104,14 +103,15 @@ main {
 			bottom: 0;
 			right: 0;
 			$shade: rgba($color, .675);
-			background-color: $shade;
-			box-shadow: -1em -1em 0 $shade, -2em 0 0 $shade, 0em -3em 0 $shade, -2em -2em 0 $shade, -3em -1em 0 $shade;
+
+
 		}
 	}
 
 	.main {
 		width: 51%;
 		left: 5%;
+    font-size: large;
 
 		ul {
 			padding-left: 1.5em;
