@@ -1,9 +1,9 @@
 const path = require('path');
-const webConfig = require('./webConfig');
+const webConfig = require('./src/webConfig');
 
 module.exports = {
     // Tell webpack the root file of our
-    // server application 
+    // server application
     entry: ['./src/client/client.js', './src/assets/scss/styles.scss'],
 
     // Tell webpack where to put the output file
@@ -26,7 +26,7 @@ module.exports = {
                             target: { browsers: ['last 2 versions']}
                         }]
                     ]
-                } 
+                }
             },
             {
                 test: /\.scss$/,
@@ -58,5 +58,3 @@ module.exports = {
     }
 
 };
-
-

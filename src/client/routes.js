@@ -1,4 +1,4 @@
-import React from 'react';
+
 import App from './app';
 import HomePage from './pages/homePage';
 import ContactPage from './pages/contactPage';
@@ -99,4 +99,3 @@ export default [
         ]
     }
 ];
-

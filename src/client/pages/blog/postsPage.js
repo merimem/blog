@@ -14,7 +14,7 @@ class Posts extends Component {
     }
 
     renderPosts(){
-        if(this.props.pageData != false){
+        if(this.props.pageData !== false){
         return this.props.pageData.map((post, index) => {
             return (
                 <div key={index} className="post">

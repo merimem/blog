@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import {connect} from 'react-redux';
-import webConfig from './../../../webConfig';
+import webConfig from './../../webConfig';
 import classNames from 'classnames';
 
 class Header extends Component {

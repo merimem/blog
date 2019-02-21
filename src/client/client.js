@@ -8,7 +8,7 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import { renderRoutes } from 'react-router-config';
 import axios from 'axios';
-import webConfig from './../../webConfig';
+import webConfig from './..webConfig';
 import Routes from './routes';
 import reducers from './reducers';
 
@@ -17,8 +17,8 @@ const axiosInstance = axios.create({
 });
 
 const store = createStore(
-    reducers, 
-    window.INITIAL_STATE, 
+    reducers,
+    window.INITIAL_STATE,
     applyMiddleware(thunk.withExtraArgument(axiosInstance))
 );
 
@@ -29,4 +29,3 @@ ReactDOM.hydrate(
         </BrowserRouter>
     </Provider>
     , document.querySelector('#root'));
-

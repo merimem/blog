@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import InternalTextBanner from './../components/banners/internalTextBanner';
-import classNames from 'classnames';
 import MeetTheTeamSlider from './../components/banners/meetTheTeam';
 import { Helmet } from 'react-helmet';
 
@@ -16,7 +15,7 @@ class About extends Component {
     }
 
     render() {
-
+ // eslint-disable-next-line
         return (
             <div>
                 {this.head()}
@@ -55,13 +54,31 @@ class About extends Component {
                                       <li></li>
                                     </ul>
                                     <main>
-
-                                    <p>Cher visiteur,
-                                    Bienvenue à mon blog.
-                                    Je m'appelle Meriem de nationalité Tunisienne et j'habite en France.
-                                    J'ai crée ce blog afin de partager avec vous mes aventures et mes expériences.
-                                    Je suis à la base informaticienne mais j'essaye de voyager
-                                    le maximum possible afin de casser la routine et découvrir ce qui nous cache le monde</p>
+                                      <h1 class='me'>Jappe</h1>
+                                      <div class='main'>
+                                        <h1>Hi.</h1>
+                                        <p>
+                                          <b>I love...</b>
+                                        </p>
+                                        <ul>
+                                          <li>MY CAT!! :o</li>
+                                          <li>Coding cool stuff</li>
+                                          <li>My girlfriend</li>
+                                        </ul>
+                                      </div>
+                                      <aside>
+                                        <h2>Skills</h2>
+                                        <ul>
+                                          <li>HTML5</li>
+                                          <li>CSS3</li>
+                                          <li>JavaScript</li>
+                                          <li>JQuery</li>
+                                          <li>PHP</li>
+                                          <li>MySQL</li>
+                                          <li>A bit of Java</li>
+                                          <li>And a bit of C#</li>
+                                        </ul>
+                                      </aside>
 </main>
 
 

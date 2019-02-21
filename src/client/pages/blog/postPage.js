@@ -18,7 +18,7 @@ class Post extends Component {
 
     render() {
 
-        if(!this.props.postData[0] == false){
+        if(!this.props.postData[0] === false){
 
           const post = this.props.postData[0].post;
             return(

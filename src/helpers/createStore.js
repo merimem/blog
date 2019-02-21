@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import axios from 'axios';
 import reducers from './../client/reducers';
-import webConfig from './../../webConfig';
+import webConfig from './../webConfig';
 
 export default (req) => {
 
@@ -14,8 +14,8 @@ export default (req) => {
     });
 
     const store = createStore(
-        reducers, 
-        {}, 
+        reducers,
+        {},
         applyMiddleware(thunk.withExtraArgument(axiosInstance)
     ));
     return store;

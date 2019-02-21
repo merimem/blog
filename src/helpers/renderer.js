@@ -6,12 +6,12 @@ import { renderRoutes } from 'react-router-config';
 import serialize from 'serialize-javascript';
 import {Helmet} from 'react-helmet';
 import Routes from './../client/routes';
-import webConfig from './../../webConfig';
+import webConfig from './../webConfig';
 
 export default (req, store, context) => {
     const content = renderToString(
         <Provider store={store}>
-            <StaticRouter location={req.path} context={context}> 
+            <StaticRouter location={req.path} context={context}>
                 <div>{renderRoutes(Routes)}</div>
             </ StaticRouter>
         </Provider>
@@ -41,4 +41,3 @@ return `<html lang="en">
     </body>
 </html>`;
 };
-

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 import classNames from 'classnames';
-import webConfig from './../../../../../webConfig';
+import webConfig from './../../../../webConfig';
 
 class MeetTheTeamSlider extends Component {
 
@@ -57,7 +57,7 @@ class MeetTheTeamSlider extends Component {
 
                         <div className="item">
                             <div className="profilePic">
-                                <img src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/aboutme.jpg`} />
+                                <img alt="Me" src={`${webConfig.siteURL}/assets/graphics/meetTheTeam/aboutme.jpg`} />
                             </div>
                             <div className="details">
                                 <span className="name">

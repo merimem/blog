@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class InternalTextBanner extends Component {
-
+     // eslint-disable-next-line
     constructor(props){
         super(props);
     }
