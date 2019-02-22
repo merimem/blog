@@ -19,11 +19,14 @@ class ContactPage extends Component {
         //data.preventDefault()
         console.log("******", data)
 		    //this.props.history.push('/about');
-         window.alert(`You submitted:\n\n${JSON.stringify(data, null, 2)}`)
+        callback(null, true)
+         //window.alert(`You submitted:\n\n${JSON.stringify(data, null, 2)}`)
     })
     .catch(function (error) {
       console.log(error);
     });
+
+    this.props.history.push('/about');
   }
 
   head(){
