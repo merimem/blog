@@ -52,7 +52,6 @@ app.get(['/*/:param', '*'], (req, res) => {
 
 app.post('/sendmail', async (req, response) => {
     let account = await nodemailer.createTestAccount();
-    console.log(account.user, account.pass)
     var mailer = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -82,7 +81,10 @@ app.post('/sendmail', async (req, response) => {
             console.log(err)
             response.status(500).send('500 - Internal Server Error')
         }
-        response.status(200).send('200 - The request has succeeded.')
+        response.status(200).send('200 - The request has succeeded.');
+        //return <Link to='/about' />;
+        console.log("1")
+        callback(null, true)
     });
 
 });
