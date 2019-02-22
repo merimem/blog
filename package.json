@@ -1,7 +1,7 @@
 {
   "name": "memmicha-goes-global",
   "version": "1.0.0",
-  "description": "open source universal react redux graphql boilerplate",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",

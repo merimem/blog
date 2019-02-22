@@ -13,12 +13,13 @@ import axios from 'axios';
 class ContactPage extends Component {
 
   submit(data){
-    console.log("data: ", data);
-
 
     axios.post('/sendmail', data)
     .then(function (response) {
-      console.log("success post: ", response);
+        console.log("success post:: ", response);
+        data.preventDefault()
+		    this.props.history.push('/about');
+
     })
     .catch(function (error) {
       console.log(error);
