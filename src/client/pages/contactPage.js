@@ -22,6 +22,8 @@ class ContactPage extends Component {
     .catch(function (error) {
       console.log(error);
     });
+    console.log("suuuuuuuccceeeesssss");
+    return <Link to='/about' />;
 
   }
 
@@ -50,7 +52,7 @@ class ContactPage extends Component {
                           <form onSubmit={handleSubmit(this.submit.bind(this))}>
 
                             <div className="form_wrap">
-                            
+
                               <div className="form_row">
                                 <Field
                                   name="firstName"
