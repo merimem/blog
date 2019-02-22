@@ -51,12 +51,12 @@ app.get(['/*/:param', '*'], (req, res) => {
 });
 
 app.post('/sendmail', (req, response) => {
-
+    let account = await nodemailer.createTestAccount();
     var mailer = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'memmichagoesglobal@gmail.com',
-            pass: ''
+            user: account.user,
+            pass: account.pass
         }
     });
 
