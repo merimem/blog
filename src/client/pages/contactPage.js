@@ -20,9 +20,9 @@ class ContactPage extends Component {
     .catch(function (error) {
       console.log(error);
     });
-
-    this.props.history.push('/about');
-    $('#sucessMessage').html("goooood");
+    this.setState({value: data.target.value});
+    //this.props.history.push('/about');
+    //$('#sucessMessage').html("goooood");
   }
 
   head(){
