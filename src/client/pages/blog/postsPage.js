@@ -29,7 +29,7 @@ class Posts extends Component {
                                 </Link>
                             </div>
                             <div className="short_desc">
-                                <RenderHTML wrapperClass="user_content" html={post.shortdescription} />
+                                <RenderHTML wrapperClass="user_content" html={post.shortDescription} />
                             </div>
                             <Link className="readMore" to={`/blog/${post.slug}`}>
                                 Read more
