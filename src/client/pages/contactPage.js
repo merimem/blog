@@ -17,7 +17,7 @@ class ContactPage extends Component {
     axios.post('/sendmail', data)
     .then(function (response) {
         console.log("success post:: ", response);
-        data.preventDefault()
+        //data.preventDefault()
 		    this.props.history.push('/about');
 
     })
