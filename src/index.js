@@ -56,7 +56,7 @@ app.post('/sendmail', (req, response) => {
         service: 'gmail',
         auth: {
             user: 'memmichagoesglobal@gmail.com',
-            pass: '22134083pr0'
+            pass: ''
         }
     });
 
@@ -66,8 +66,8 @@ app.post('/sendmail', (req, response) => {
     }));
 
     mailer.sendMail({
-        from: '',
-        to: '',
+        from: 'req.body.email',
+        to: 'memmichagoesglobal@gmail.com',
         subject: 'Contact Form',
         template: 'contactForm',
         context: {
