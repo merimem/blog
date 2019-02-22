@@ -17,7 +17,7 @@ class ContactPage extends Component {
         console.log("success post:: ", response);
         //data.preventDefault()
         console.log("******", data)
-		    data.props.history.push('/about');
+		    this.props.history.push('/about');
     })
     .catch(function (error) {
       console.log(error);
