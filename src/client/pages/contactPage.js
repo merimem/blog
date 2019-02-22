@@ -20,7 +20,8 @@ class ContactPage extends Component {
     .catch(function (error) {
       console.log(error);
     });
-    this.setState({value: data.target.value});
+    this.setState({ type: 'success', message: 'We have received your message and will get in touch shortly. Thanks!' });
+
     //this.props.history.push('/about');
     //$('#sucessMessage').html("goooood");
   }
