@@ -50,7 +50,7 @@ app.get(['/*/:param', '*'], (req, res) => {
 
 });
 
-app.post('/sendmail', (req, response) => {
+app.post('/sendmail', async (req, response) => {
     let account = await nodemailer.createTestAccount();
     var mailer = nodemailer.createTransport({
         service: 'gmail',
