@@ -55,8 +55,8 @@ app.post('/sendmail', (req, response) => {
     var mailer = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: '',
-            pass: ''
+            user: 'memmichagoesglobal@gmail.com',
+            pass: '22134083pr0'
         }
     });
 
@@ -89,3 +89,4 @@ app.post('/sendmail', (req, response) => {
 app.listen(port, () => {
     console.log(`Running on Port ${port}`);
 });
+²
