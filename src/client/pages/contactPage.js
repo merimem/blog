@@ -8,7 +8,6 @@ import { renderTextField, renderTextarea } from './../common/forms/input-types';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import InternalTextBanner from './../components/banners/internalTextBanner';
 import axios from 'axios';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
 
 class ContactPage extends Component {
 
@@ -21,9 +20,7 @@ class ContactPage extends Component {
     .catch(function (error) {
       console.log(error);
     });
-    //this.setState({ type: 'success', message: 'We have received your message and will get in touch shortly. Thanks!' });
-    this.createNotification('success')
-     NotificationManager.success('Success message', 'Title here');
+    targetOfGreeting= "yessssss";
     //this.props.history.push('/about');
     //$('#sucessMessage').html("goooood");
   }
@@ -38,7 +35,7 @@ class ContactPage extends Component {
 
     render() {
       const { handleSubmit } = this.props
-
+      var targetOfGreeting =""
       return (
 
           <section className="contactPage_wrap">
@@ -96,7 +93,7 @@ class ContactPage extends Component {
 
                           </form>
 
-                          <span id="sucessMessage"> </span>
+                          <span id="sucessMessage">{ targetOfGreeting } </span>
 
                         </div>
                       </div>
