@@ -13,14 +13,16 @@ class ContactPage extends Component {
 
   submit(data){
     axios.post('/sendmail', data)
-    .then(function (response) {
-        console.log("success post: ", response);
-        callback(null, true)
+    .then(async function (response) {
+        console.log("success post:; ", response);
+      //  callback(null, true)
     })
     .catch(function (error) {
       console.log(error);
     });
-    targetOfGreeting= "yessssss";
+
+    alert('it works!');
+    data.preventDefault();
     //this.props.history.push('/about');
     //$('#sucessMessage').html("goooood");
   }
@@ -34,8 +36,10 @@ class ContactPage extends Component {
   }
 
     render() {
-      const { handleSubmit } = this.props
-      var targetOfGreeting =""
+      const { handleSubmit } = this.props;
+      this.state = {success: false};
+
+
       return (
 
           <section className="contactPage_wrap">
@@ -82,7 +86,10 @@ class ContactPage extends Component {
                                   label="Message:"
                                 />
                               </div>
-
+                              <div class="ui success message">
+                                <div class="header">Form Completed</div>
+                                <p>You're all signed up for the newsletter.</p>
+                              </div>
                               <div className="form_buttons">
                                 <button className="btn first" type="submit">
                                   Send
@@ -93,7 +100,7 @@ class ContactPage extends Component {
 
                           </form>
 
-                          <span id="sucessMessage">{ targetOfGreeting } </span>
+                          <span id="sucessMessage"> {this.state.success ? 'Success' : ''} </span>
 
                         </div>
                       </div>

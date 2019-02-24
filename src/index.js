@@ -82,8 +82,7 @@ app.post('/sendmail', async (req, response) => {
         }
         response.status(200).send('200 - The request has succeeded.');
         //return <Link to='/about' />;
-        console.log("1")
-        callback(null, true)
+        
     });
 
 });

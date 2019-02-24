@@ -41,7 +41,6 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "16.0.0",
     "react-helmet": "5.2.0",
-    "react-notifications": "^1.4.3",
     "react-redux": "5.0.6",
     "react-router-config": "1.0.0-beta.4",
     "react-router-dom": "4.2.2",
@@ -61,5 +60,11 @@
     "file-loader": "^0.11.2",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
