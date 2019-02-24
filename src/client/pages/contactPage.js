@@ -15,7 +15,7 @@ class ContactPage extends Component {
     axios.post('/sendmail', data)
     .then(async function (response) {
         console.log("success post:; ", response);
-        callback(null, true)
+//        callback(null, true)
     })
     .catch(function (error) {
       console.log(error);
