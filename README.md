@@ -1,39 +1,10 @@
-# REACT STARTER KIT
-
-<p align="center">
-    <img src="http://git-assets.react-starter-kit.com/logo.png">  
-</p>
+# REACT APPLICAION
 
 Open Source Universal React Redux GraphQL Boilerplate
 
-[Online Demo](https://react-starter-kit-demo.herokuapp.com)
-
 # Getting Started
 
-This repository contains the source code for React-Starter-Kit. This documentation will cover the installation on your machine, project architecture, unit testing and working with the app in general.
-
-This is a Universal React Redux GraphQL Node app.
-
-## YouTube Video Tutorials
-
-##### Introduction (Getting started)
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=g2QWG9sAQqs" target="_blank">
-	<img src="http://img.youtube.com/vi/g2QWG9sAQqs/0.jpg" width="240" height="180" />
-</a>
-
-
-##### Project architecture
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=DfxmoBgPymI " target="_blank">
-	<img src="http://img.youtube.com/vi/DfxmoBgPymI/0.jpg" width="240" height="180" />
-</a>
-
-## Preview
-
-<p align="center">
-    <img src="http://git-assets.react-starter-kit.com/preview.png" style="max-width: 400px;">  
-</p>
+This repository contains the source code for React BLog. This documentation will cover the installation on your machine, project architecture, unit testing and working with the app in general.
 
 ## Software 
 
@@ -52,8 +23,6 @@ Before proceeding, please ensure you have the following software installed on yo
 
 
 ## Installation
-
-Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
 
 1. Clone the repo to your machine 
 
@@ -159,14 +128,6 @@ Please note that our routes will be rendered wherever we place the following cod
 This folder is self-explanatory.
 
 Please maintain the proper naming conventions. For example, 'namePage'.
-
-## Important
-
-Whilst most of our code is standard, please note the special 'loadData' function that is exported.
-
-As you know, this is a universal application, which means that we need to configure our pages to run on both the server and client.
-
-The 'loadData' function is used to tell the server what calls need to be complete before throwing down the initial html to the browser.
 
 7. Reducers
 
