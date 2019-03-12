@@ -1,7 +1,7 @@
 {
   "name": "react-starter-kit",
   "version": "1.0.0",
-  "description": "open source universal react redux graphql boilerplate",
+  "description": "open source react application",
   "main": "index.js",
   "scripts": {
     "heroku-postbuild": "webpack --config webpack.server.js && webpack --config webpack.client.js",
@@ -12,7 +12,7 @@
     "dev:build-client": "webpack --config webpack.client.js --watch",
     "dev:server": "nodemon --watch build --exec node build/bundle.js"
   },
-  "author": "Ashley Bibizadeh",
+  "author": "Ashley Bibizadeh, Meriem MEMMICHE",
   "license": "MIT",
   "dependencies": {
     "axios": "0.16.2",
